@@ -1,8 +1,8 @@
 SSHDefense
 ==========
-SSHD defense &amp; monitoring utility for GNU/Linux
-author:  ohdae (ams) - 2013
-website: https://github.com/ohdae/SSHDefense
+SSHD defense &amp; monitoring utility for GNU/Linux<br>
+author:  ohdae (ams) - 2013<br>
+website: https://github.com/ohdae/SSHDefense<br>
 
 Description
 ===========
@@ -15,13 +15,13 @@ Monitoring Modes:
 * 'monitor' - log only
   monitor mode simply watches the incoming log events
   and saves suspicious alerts to a custom log file for
-  later review. no actions other than logging will be taken.
+  later review. no actions other than logging will be taken.<br><br>
 
 * 'alert' - log and alert
   alert mode incporates 'monitor' but also can be set to
   send email, text message, growl or tty alerts when suspicious
   events occur. you will be actively informed of all incoming and/or
-  on-going security events.
+  on-going security events.<br><br>
 
 * 'active' - log, alert, drop, collect
   active mode performs all of the above actions from
@@ -32,4 +32,4 @@ Monitoring Modes:
   on the events that caused the alert action, as well as
   information on the attacker host itself such as whois, dns
   lookups and actively search other service logs in an attempt
-  to find other events from the same attacker host.
+  to find other events from the same attacker host.<br><br><br><br>
